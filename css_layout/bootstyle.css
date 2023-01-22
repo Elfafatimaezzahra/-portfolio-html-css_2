@@ -1,0 +1,300 @@
+/* .right{
+    text-align: right;
+} */
+
+/* li{
+    list-style: none;
+ }
+ .ulmn{
+    display: inline-flex;
+    justify-content: s;
+ } */
+*{
+    font-family: Work Sans,Arial,sans-serif;
+}
+.container{
+    position: fixed;
+    padding-top: 40px;
+    background-color: white;
+    
+}
+.container .logo{
+
+    margin-left: 150px;
+}
+.nav li a {
+    color: rgb(150, 150, 150);
+}
+
+.nav li a:hover {
+    color: #00b39b;
+}
+
+.content_about {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.h1 {
+    color: #00b39b;
+}
+
+.parag {
+    display: flex;
+    gap: 30px;
+    margin: 50px 150px 50px 150px;
+    text-align: left;
+}
+
+.img {
+    height: 35px;
+    width: 35px;
+    margin-bottom: 20px;
+}
+
+.block {
+    display: flex;
+    text-align: left;
+    color: white;
+    justify-content: center;
+
+
+
+}
+
+.block1 {
+    border: solid;
+    border-radius: 7%;
+    background-color: #00b39b;
+    padding: 30px;
+}
+
+.block2 {
+    border: solid;
+    border-radius: 7%;
+    background-color: rgb(7, 133, 212);
+    padding: 30px;
+
+}
+
+.block3 {
+    border: solid;
+    border-radius: 7%;
+    background-color: rgb(3, 24, 37);
+    padding: 30px;
+}
+
+.block1,
+.block2,
+.block3 {
+    margin: 10px;
+    height: 350px;
+    width: 325px;
+    font-size: 24px;
+    margin-bottom: 60px;
+
+}
+
+.block1 p, .block2 p{
+    margin-bottom: 60px;
+}
+
+
+
+select{
+    text-decoration: underline;
+    color: white;
+    background: none;
+    border: none;
+    
+}
+select > option{
+    color: black;
+    border: none; 
+
+}
+.cont_flex{
+    display: inline-flex;
+    gap: 110px;
+    margin-bottom: 60px;
+    
+}
+.cont_grid{
+    grid-template-columns: 25% 25% 25% 25%;
+    display: inline-grid;
+    width: 90%;
+}
+
+
+.para_grid{
+    margin-left: 125px;
+    font-size: 30px;
+    color: #00b39b;
+}
+.sec{
+    display: flex;
+    background-color: #9fe1d8;
+    padding: 80px;
+    gap:80px
+    
+}
+.block_section{
+    margin-top: -40px;
+
+}
+.blo1{
+    border: none;
+    border-radius: 5%;
+    /* font-size: 12px; */
+    padding-top: 20px;
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    
+   
+}
+.blo1 h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #00b39b;
+    
+}
+.blo1 p{
+    font-size: 12px;
+    text-align: center;
+    color:  gray;
+}
+
+.seg1, .seg2{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.patient{
+    margin-top: -20px;
+}
+.blo_sec h6{
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    margin-left: 60px;
+}
+.blo_sec p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    color: rgb(79, 78, 78);
+    text-align: justify;
+}
+.img_sec{
+    margin-bottom: -90px;
+    overflow: hidden;
+}
+.blo1 .logo_sec{
+    height: 35px;
+    width: 35px;
+    margin-bottom: 10px;
+}
+.improve{
+    text-align: center;
+    margin: 100px 400px 100px 400px;
+}
+.improve h3{
+    margin-bottom: 25px;
+    color: #00b39b;
+}
+.improve p{
+    color: rgb(79, 78, 78);
+}
+.cont1_flex{
+    justify-content: center;
+    margin: 100px 150px 100px 150px;
+}
+.cont1_grid{
+    grid-template-columns: 33% 33% 33%;
+    display: inline-grid;
+    gap: 20px;
+    
+    
+}
+.grid1_item{
+    border-radius: 5%;
+    border: 1px solid;
+    border-color: rgb(224, 224, 224);
+    width: 301px;
+    height: 320px;
+    
+}
+.grid1_item img{
+    width: 300px;
+    height: 250px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    margin-bottom: 15px;
+}
+.grid1_item p{
+    color: gray;
+    font-size: 18px;
+    
+}
+.grid1_item p, button{
+    text-align: center;
+}
+.btn_country{
+    margin-left: 60px;
+    border-radius: 10px;
+    background-color: rgb(78, 113, 240);
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 7px;
+    font-weight: bold;
+    width: 120px;
+
+}
+.grid1_item a{
+   text-decoration: none;
+}
+.grid1_item button:hover{
+    background-color: rgb(6, 55, 232);
+    
+}
+.befo_foot{
+    margin: 100px 230px 100px 230px;
+    text-align: center;
+}
+.befo_foot p{
+    font-size: 30px;
+    color: rgb(50, 50, 50);
+}
+.befo_foot button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(78, 113, 240);
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+.befo_foot button:hover{
+    background-color: rgb(6, 55, 232);
+}
+footer{
+    height: 80px;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: -100px;
+    color: rgb(172, 171, 171);
+}
+span{
+    color: rgb(78, 113, 240);
+}
+
+
+
+
+
+
