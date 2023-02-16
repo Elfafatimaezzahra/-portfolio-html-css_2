@@ -1,0 +1,218 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* HOME */
+.head{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+.logo{
+    display: flex;
+    padding-bottom: 5px;
+}
+.logo p{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(55, 65, 81);
+    padding-top:20px ;
+}
+.logo img{
+    height: 60px;
+    width: 100px;
+    padding-top: 5px;
+}
+.lara{
+    color: orange;
+}
+
+.mn2{
+    display: flex;
+    padding-top: 20px;
+}
+.mn2 li{
+    list-style: none;
+    padding: 5px 15px 5px 15px;
+}
+.mn2 a{
+    text-decoration: none;
+    color: rgb(55, 65, 81);
+    font-size: 16px;
+    font-weight: bold;
+}
+.mn2 a:hover{
+    color: orange;
+}
+.con{
+    background-color: orange;
+    padding: 7px 15px 7px 15px ;
+    border-radius: 10px;
+    color: white;
+}
+.con:hover{
+    background-color: rgb(141, 92, 1);
+}
+.content_home{
+    display: flex;
+    height: 600px;
+    background-image: url(images/gray.png);
+    background-size: cover;
+
+}
+.para{
+    padding-left: 150px;
+    padding-top: 170px;
+    color: white;
+}
+.para h3{
+    font-size: 55px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.para p{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+}
+.start, .inscri{
+    height: 30px;
+    width: 200px;
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    padding-top: 13px;
+    border-radius: 10px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.start:hover , .inscri:hover{
+    background-color: rgb(141, 92, 1);
+}
+/* ABOUT */
+#about{
+    background-color: rgb(236, 235, 235);
+}
+.content_about{
+    display: flex;
+    gap: 40px;
+    /* margin-top: 60px; */
+    margin-left: 80px;
+    /* margin-bottom: 60px; */
+    padding-top: 80px;
+}
+.para_about{
+    /* padding: 30px 0px 20px 120px; */
+    padding-top: 60px;
+}
+.content_about img{
+    height: 400px;
+    width: 600px;
+    margin-top: 60px;
+}
+.para_about p{
+    text-align: justify;
+    height: 350px;
+    width: 500px;
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 50px;
+
+}
+.para_about h3{
+    color: rgb(55, 65, 81);
+    font-size: 40px;
+    text-align: center;
+    
+}
+/* SERVICES */
+#services{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(236, 235, 235);
+}
+#services h3{
+    color: rgb(55, 65, 81);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.our_services{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.service1, .service2, .service3{
+    background-color: rgb(205, 204, 204);
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    color: rgb(55, 65, 81);
+}
+.service1:hover, .service2:hover, .service3:hover{
+    background-color: rgb(245, 201, 120);
+}
+.service1 img, .service2 img, .service3 img{
+    height: 60px;
+    width: 60px;
+    
+}
+.titre{
+    display: flex;
+    gap: 25px;
+    padding-bottom: 15px;
+    justify-content: center;
+    padding-top: 15px;
+}
+.titre h5{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    
+}
+.our_services p{
+    padding: 20px;
+    text-align: justify;
+}
+/* REGISTER */
+.form{
+    text-align: center;
+    padding: 60px;
+}
+.form h3{
+    padding-bottom: 40px;
+}
+.new_account{
+    height: 400px;
+    width: 500px;
+    border: 1px solid;
+    text-align: center;
+    margin-left: 30%;
+
+}
+.new_account input{
+    /* margin-bottom: 10px; */
+    width: 350px;
+}
+.label{
+    font-size: 10px;
+}
+.lab_input{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+

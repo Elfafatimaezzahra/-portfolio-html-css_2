@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+    text-align: center;
+    padding-top: 20px;
+}
+.img img{
+    height: 535px;
+    width: 700px;
+    
+}
+/*page 2 */
+#log{
+    text-align: center;
+}
+.img1{
+    text-align: center;
+}
+.img1 img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+#email{
+    background-color: black;
+    color: gray;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    margin-bottom: 40px;
+    width: 300px;
+}
+#mdp{
+    background-color: black;
+    color: gray;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.icon img{
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}
+.oub{
+    color: gray;
+    margin-left: 270px;
+    font-size: 12px;
+}
+.log_btn{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(88, 185, 71);
+}
+.register{
+    color: gray;
+}
+a{
+    text-decoration: none;
+}
+#log p{
+    color:rgb(88, 185, 71);
+    font-size: 14px;
+    margin-top: 30px;
+}
+.goog img{
+    height: 40px;
+    width: 40px;
+}
